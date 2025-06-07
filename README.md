@@ -1,49 +1,142 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Internship Projects Portfolio
 
-First, run the development server:
+A **Next.js** based portfolio showcasing multiple internship projects:
+
+- **Todo List** — A simple task manager app  
+- **NoteSync** — Note-taking and syncing tool  
+- **AI Chatbot** — Real-time AI-powered chat interface  
+- **Documents** — Document management interface  
+
+---
+
+## Table of Contents
+
+- [Project Overview](#project-overview)  
+- [Tech Stack](#tech-stack)  
+- [Installation & Setup](#installation--setup)  
+- [Running Locally](#running-locally)  
+- [Project Structure](#project-structure)  
+- [Navigation](#navigation)  
+- [Deployment](#deployment)  
+- [License](#license)  
+
+---
+
+## Project Overview
+
+### 1. Todo List  
+A simple app to add, view, edit, and delete daily tasks with persistent state.
+
+### 2. NoteSync  
+Create, edit, and sync notes efficiently with a clean UI.
+
+### 3. AI Chatbot  
+An AI-powered chat interface integrating with OpenAI or Vercel AI SDK for real-time conversational AI.
+
+### 4. Documents  
+Manage, view, and organize documents with an intuitive interface.
+
+---
+
+## Tech Stack
+
+- **Next.js 14** (App Router)  
+- **React** (Functional Components & Hooks)  
+- **React Icons** for UI icons  
+- **CSS / CSS Modules** for styling  
+- **OpenAI or Vercel AI SDK** for AI integration (Chatbot)  
+
+---
+
+## Installation & Setup
+
+Clone the repo:
+
+```bash
+git clone https://github.com/your-username/internship-projects-portfolio.git
+cd internship-projects-portfolio
+npm install
+```
+
+---
+
+## Running Locally
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and navigate to:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+.vscode/
+app/
+├── api/
+│   ├── chat/
+│   │   └── route.ts
+│   ├── notes/
+│   │   └── route.ts
+│   └── todos/
+│       └── route.ts
+├── chat/
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── ChatBot.css
+│   └── ChatBot.tsx
+├── doc/
+│   └── page.tsx
+├── notes/
+│   ├── NotesSync.css
+│   └── page.tsx
+└── todos/
+    ├── page.tsx
+    └── TodosPage.css
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Navigation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The home page (`/`) lists all projects with icons and buttons for navigation. Clicking a project button routes to the respective project page:
 
-## Deploy on Vercel
+| Project    | Route      | 
+|------------|------------|
+| Todo List  | `/todos`   | 
+| NoteSync   | `/notes`   | 
+| AI Chatbot | `/chat`    | 
+| Documents  | `/doc`     | 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deployment
 
-## How to Run
-1. Clone this repo
-2. `npm install`
-3. `npm run dev`
+### Vercel (Recommended)
 
-## Developer Notes
-- Part 2 tested successfully via ts-node
-- AI approach documented in AI_APPROACH.md
-=======
-# Intern-Screening-Test
->>>>>>> 0f49f4d1a352f9b981a209c193f5b36283133b84
+1. Push your code to a GitHub repository.
+2. Import the repo to [Vercel](https://vercel.com/).
+3. Set up any environment variables needed (for AI keys, if any).
+4. Deploy and get the live URL.
+
+### Netlify
+
+1. Push code to GitHub.
+2. Connect your repo in [Netlify](https://netlify.com).
+3. Set build command: `npm run build`
+4. Set publish directory: `out` (if using static export) or default `.next`
+5. Deploy your site.
+
+---
+
+## License
+
+ © 2025 [Sam Jebaraj](https://github.com/Sam1635)
