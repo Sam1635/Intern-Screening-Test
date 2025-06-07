@@ -40,7 +40,7 @@ A modern, interactive AI-powered chatbot built with React, providing a smooth co
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/your-repo.git
+git clone https://github.com/Sam1635/Intern-Screening-Test.git
 cd your-repo
 ```
 
@@ -56,7 +56,7 @@ npm install
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+4. Open [http://localhost:3000](http://localhost:3000/chat) in your browser
 
 ---
 
