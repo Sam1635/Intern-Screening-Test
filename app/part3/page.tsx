@@ -6,7 +6,7 @@ export default function Part3Page() {
     <main style={styles.container}>
       <h2 style={styles.heading}>Part 3: AI Integration</h2>
       <iframe
-        src="\AI INTEGRATION (CURIOSITY + OPTIONAL CODE).pdf"
+        src="/AI INTEGRATION (CURIOSITY + OPTIONAL CODE).pdf"
         style={styles.iframe}
         title="AI INTEGRATION (CURIOSITY + OPTIONAL CODE) PDF"
       ></iframe>
