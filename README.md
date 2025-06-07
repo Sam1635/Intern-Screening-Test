@@ -54,8 +54,8 @@ Manage, view, and organize documents with an intuitive interface.
 Clone the repo:
 
 ```bash
-git clone https://github.com/your-username/internship-projects-portfolio.git
-cd internship-projects-portfolio
+git clone https://github.com/Sam1635/Intern-Screening-Test.git
+cd Intern-Screening-Test
 npm install
 ```
 
