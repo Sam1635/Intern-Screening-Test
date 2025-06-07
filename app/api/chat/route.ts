@@ -13,7 +13,7 @@ const google = createGoogleGenerativeAI({
 
 // Optional: Set a maximum duration for the serverless function execution.
 // This is important for preventing timeouts on long AI responses.
-export const maxDuration = 300; // 300 seconds (5 minutes) - adjust as needed.
+export const maxDuration = 60; // 300 seconds (5 minutes) - adjust as needed.
 
 // Define the POST handler for the API route.
 // This function will be called when the frontend sends a POST request to /api/chat.
