@@ -99,7 +99,3 @@ This project is licensed under the MIT License.
 
 Sam Jebaraj  
 Chatbot powered by Gemini AI
-
----
-
-If you want, I can also help you write a **backend API stub** for `/api/chat` or a deployment guide for platforms like Vercel or Netlify. Would you like me to help with that?
