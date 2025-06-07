@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -43,3 +44,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ## Developer Notes
 - Part 2 tested successfully via ts-node
 - AI approach documented in AI_APPROACH.md
+=======
+# Intern-Screening-Test
+>>>>>>> 0f49f4d1a352f9b981a209c193f5b36283133b84
